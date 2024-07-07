@@ -1,0 +1,32 @@
+<div class="container">
+<img [src]="travel.imageUrl" [alt]="travel.name">
+<div class="tags">
+    <div class="header">
+        <span class="name">
+            {{travel.name}}
+        </span>
+    <div class="tags">
+        <span>
+            {{travel.tags}}
+        </span>
+    </div>    
+    </div>
+    <div class="price">
+        <span>
+            {{travel.price|currency}}
+        </span>
+    </div>
+
+    <div class="reservation">
+        <label for="start-date"> Depart Date:</label>
+        <input type="date" id="start-date" [(ngModel)]="startDate">
+
+        <label for="return-date"> Return Date:</label>
+        <input type="date" id="return-date" [(ngModel)]="returnDate">
+    </div>
+
+    <div class="add-to-cart">
+        <button (click)="addToCart()">BOOK NOW</button>
+    </div>
+</div>    
+</div>

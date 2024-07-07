@@ -1,0 +1,93 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 3rem;
+}
+.container > *{
+
+    min-width: 25rem;
+    max-width: 35rem;
+}
+
+
+
+img{
+
+    border-radius: 3rem;
+    flex: 1 0;
+    object-fit: cover;
+    height: 35rem;
+    margin: 1rem;
+
+}
+
+
+.header{
+    justify-content: space-between;
+}
+
+.name{
+
+    font-size: 2rem;
+    font-weight: bold;
+    color: #066679;
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.price{
+
+    font-size: 1.3em;
+    color: gray;
+}
+
+.price::before{
+
+    content: "Price: ";
+
+}
+
+
+.reservation{
+
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+
+.reservation input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+
+.add-to-cart{
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }

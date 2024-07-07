@@ -1,0 +1,51 @@
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+li a{
+    height: 30rem;
+    width: 30rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: darkolivegreen;
+}
+
+li a img {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
+
+li a .content {
+    padding: 0.5rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: adds a background to the text for readability */
+    flex-shrink: 0;
+    height: 5rem; /* Fixed height for the text container */
+}
+
+li a:hover{
+
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.content {
+    padding: .5rem 1rem;
+}
+
+.price {
+
+    color: darkgray;
+    margin-top: .7rem;
+}

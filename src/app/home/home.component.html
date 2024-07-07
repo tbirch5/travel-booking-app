@@ -1,0 +1,28 @@
+<app-search (searchTermChange)="onSearchTermChange($event)"></app-search>
+<app-not-found [visible]="!travels || travels.length <= 0" resetLinkText="Try a New Search"></app-not-found>
+<ul>
+    <li *ngFor="let travel of travels">
+        <a routerLink="/travel/{{travel.id}}">
+            <img [src]="travel.imageUrl" alt=" ">
+            <div class="content">
+                <div class="name">
+                    {{travel.name}}
+                </div>
+                <div class="location">
+                    <span>
+                        {{travel.location}}  
+                    </span>
+                </div>
+            
+                <div class="price">
+                    <span>
+                        {{travel.price|currency}}
+                    </span>
+                   
+                </div>
+
+            </div>
+        </a>
+    </li>
+  </ul>
+  

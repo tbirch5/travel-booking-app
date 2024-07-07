@@ -1,0 +1,10 @@
+<div>
+    <input
+        type="text" 
+        placeholder="Search Travel Destination!" 
+        [(ngModel)]="searchTerm" 
+        (ngModelChange)="onSearchChange($event)"
+        (keyup.enter)="search()"
+    />
+    <button (click)="search()">Search</button>
+</div>

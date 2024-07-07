@@ -1,0 +1,36 @@
+div{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+div input{
+
+    border: none;
+    height: 3rem;
+    width: 20rem;
+    background-color: whitesmoke;
+    padding: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: none;
+}
+
+div button{
+    color: gainsboro;
+    height: 3rem;
+    width: 5rem;
+    font-size: 1rem;
+    border: none;
+    background-color:black;
+    opacity: .8;
+
+}
+
+div button:hover{
+
+    opacity: 1;
+    cursor: pointer;
+}
