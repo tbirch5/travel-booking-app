@@ -3,7 +3,7 @@
 
 This is my angular application showcasing a modern web UI.
 
-![Web Application UI](imgs/travel-today-screenshot.png)
+![Web Application UI](/src/assets/imgs/travel-today-screenshot.png)
 
 ## Features
 - **Responsive Design**: Fully responsive layout for mobile, tablet, and desktop views.
