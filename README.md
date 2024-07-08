@@ -1,5 +1,17 @@
 # TravelAngularApp
 
+
+This is my angular application showcasing a modern web UI.
+
+![Web Application UI](imgs/travel-today-screenshot.png)
+
+## Features
+- **Responsive Design**: Fully responsive layout for mobile, tablet, and desktop views.
+- **CRUD Operations**: Create, Read, Update, and Delete functionality for managing items.
+- **Search and Filtering**: Advanced search and filtering options to find specific items quickly.
+- **Accessibility Features**: Ensuring the application is accessible to users with disabilities.
+- **Performance Optimization**: Lazy loading of modules and components for faster load times.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
 
 ## Development server
