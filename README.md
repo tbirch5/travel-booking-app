@@ -3,6 +3,8 @@
 
 This is my angular application showcasing a modern web UI.
 
+View Live at: https://gotraveltoday.netlify.app
+
 ![Web Application UI](/src/assets/imgs/travel-today-screenshot.png)
 
 ## Features
